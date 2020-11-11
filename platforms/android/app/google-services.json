@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278867904176",
+    "firebase_url": "https://vzon-58d10.firebaseio.com",
+    "project_id": "vzon-58d10",
+    "storage_bucket": "vzon-58d10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278867904176:android:0f660e99a82c2ecb",
+        "android_client_info": {
+          "package_name": "com.pentaon.vzon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278867904176-1hsgakv754i2s2bbqagej2esboemudg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pentaon.vzon",
+            "certificate_hash": "bb021c20e90bf9b584087427bfab79a6773621c2"
+          }
+        },
+        {
+          "client_id": "278867904176-v9aneobm12n12l3i764goeb0romojle0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNlL1Q1eqJOYd61-UvB6eVq9xqTa62j4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278867904176-v9aneobm12n12l3i764goeb0romojle0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

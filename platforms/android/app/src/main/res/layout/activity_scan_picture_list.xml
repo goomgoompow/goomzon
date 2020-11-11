@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/act_picture_list_container"
+  >
+
+  <!--상단 타이틀 버튼 container-->
+  <android.support.constraint.ConstraintLayout
+    android:id="@+id/container_title"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+    <!--back 버튼-->
+    <LinearLayout
+      android:id="@+id/act_picture_list_button_navigation_back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      >
+      <ImageView
+        android:layout_width="@dimen/common_phone_button_width"
+        android:layout_height="@dimen/common_phone_button_height"
+        android:padding="5dp"
+        android:src="@drawable/ic_back_btn"
+        />
+      <TextView
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_gravity="center"
+        android:text="@string/popup_btn_text_back"
+        />
+    </LinearLayout>
+    <!--저장 버튼-->
+    <LinearLayout
+      android:id="@+id/act_picture_list_button_save"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="10dp"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      >
+      <ImageView
+        android:layout_width="@dimen/common_phone_button_width"
+        android:layout_height="@dimen/common_phone_button_height"
+        android:padding="5dp"
+        android:src="@drawable/selector_button_ok"
+        />
+      <TextView
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/popup_btn_text_save"
+        />
+    </LinearLayout>
+  </android.support.constraint.ConstraintLayout>
+
+  <RelativeLayout
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/container_thumbnail"
+    android:layout_below="@+id/container_title"
+    android:background="@color/black">
+
+    <TextView
+      android:id="@+id/act_picture_list_description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:padding="15dp"
+      android:text="@string/picture_list_description"
+      android:textColor="#ff999999"
+      android:textSize="@dimen/text_size_medium"/>
+
+    <ImageView
+      android:id="@+id/bg_image"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_centerInParent="true"/>
+
+    <!--<LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/btn_left_turn"
+            android:layout_width="50dp"
+            android:layout_height="53dp"
+            android:src="@drawable/btn_rotate_right" />
+
+        <ImageView
+            android:id="@+id/btn_right_turn"
+            android:layout_width="50dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/btn_rotate_left" />
+
+        <ImageView
+            android:id="@+id/btn_remove"
+            android:layout_width="50dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/new_icon_trash"
+            android:visibility="visible" />
+    </LinearLayout>-->
+
+
+    <!--<RelativeLayout
+    android:id="@+id/store"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+    <EditText
+        android:id="@+id/special_text"
+        android:layout_width="500dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="58dp"
+        android:background="@drawable/input_basic"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:hint="@string/sub_store_picture_info"
+        android:textColorHint="@color/text_hint_color"
+        android:textSize="@dimen/text_size_small"
+        android:inputType="textMultiLine"
+        android:lines="3"/>
+    </RelativeLayout>-->
+    <!-- 58 = 874 x 157 / 2336 ,  500= 874 x1338 /2336 -->
+
+  </RelativeLayout>
+
+  <android.support.constraint.ConstraintLayout
+    android:id="@+id/container_thumbnail"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_above="@+id/bottom_button_container"
+    android:background="@color/act_picture_list_actionbar"
+    >
+    <HorizontalScrollView
+      android:id="@+id/horizontal_scroll_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#500000ff"
+      android:focusable="false"
+      android:focusableInTouchMode="false"
+      app:layout_constrainedWidth="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0"
+      app:layout_constraintHorizontal_chainStyle="packed"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@id/btn_open_camera"
+      app:layout_constraintTop_toTopOf="parent"
+      >
+      <LinearLayout
+        android:id="@+id/linear_thumbnails"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal"
+        />
+    </HorizontalScrollView>
+    <RelativeLayout
+      android:id="@+id/btn_open_camera"
+      android:layout_width="@dimen/thumbnail_width"
+      android:layout_height="@dimen/thumbnail_height"
+      android:layout_marginRight="10dp"
+      android:background="@color/text_hint_color"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@id/horizontal_scroll_view"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      >
+      <ImageView
+        android:layout_width="@dimen/common_phone_button_width"
+        android:layout_height="@dimen/common_phone_button_height"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_add_file"
+        />
+    </RelativeLayout>
+
+    <!--
+        <com.pentaon.vzon.views.DragDropGridView
+          android:id="@+id/gridview"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:columnWidth="70dp"
+          android:horizontalSpacing="5dp"
+          android:listSelector="@color/cache_hint_color"
+          android:numColumns="auto_fit"
+          android:verticalSpacing="10dp"
+          app:layout_constrainedWidth="true"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintHorizontal_chainStyle="packed"
+          />
+    -->
+
+
+    <!--<HorizontalScrollView
+      android:id="@+id/horizontal_scroll_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@id/btn_open_camera"
+      app:layout_constrainedWidth="true"
+      app:layout_constraintHorizontal_chainStyle="packed"
+      app:layout_constraintHorizontal_bias="0"
+      >
+      <LinearLayout
+        android:id="@+id/container_thumbnails"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+    </HorizontalScrollView>-->
+
+    <!--
+        <RelativeLayout
+          android:id="@+id/btn_open_camera"
+          android:layout_width="70dp"
+          android:layout_height="110dp"
+          android:layout_marginRight="10dp"
+          android:background="@color/dark_gray"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:visibility="gone"
+          >
+          <ImageView
+            android:layout_width="@dimen/common_phone_button_width"
+            android:layout_height="@dimen/common_phone_button_height"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_add_file"
+            />
+        </RelativeLayout>-->
+
+
+    <!--<ImageView
+      android:id="@+id/no_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"/>-->
+  </android.support.constraint.ConstraintLayout>
+
+  <!-- 하단 - 촬영,가져오기,완료 버튼 -->
+  <android.support.constraint.ConstraintLayout
+    android:id="@+id/bottom_button_container"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/black"
+    >
+
+    <ImageView
+      android:id="@+id/act_picture_list_button_rotate_left"
+      android:layout_width="@dimen/common_phone_button_width"
+      android:layout_height="@dimen/common_phone_button_height"
+      android:src="@drawable/ic_rotate_left"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@+id/act_picture_list_button_rotate_right"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+    <ImageView
+      android:id="@+id/act_picture_list_button_rotate_right"
+      android:layout_width="@dimen/common_phone_button_width"
+      android:layout_height="@dimen/common_phone_button_height"
+      android:src="@drawable/ic_rotate_right"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@+id/act_picture_list_button_rotate_left"
+      app:layout_constraintRight_toLeftOf="@+id/act_scan_picture_toggle_button_color_transform"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+    <ToggleButton
+      android:id="@+id/act_scan_picture_toggle_button_color_transform"
+      android:layout_width="@dimen/common_phone_button_width"
+      android:layout_height="@dimen/common_phone_button_height"
+      android:background="@drawable/selector_btn_color_transform"
+      android:enabled="false"
+      android:focusable="false"
+      android:focusableInTouchMode="false"
+      android:textOff=""
+      android:textOn=""
+      android:visibility="gone"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@id/act_picture_list_button_rotate_right"
+      app:layout_constraintRight_toLeftOf="@+id/act_picture_list_button_delete"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+    <ImageView
+      android:id="@+id/act_picture_list_button_delete"
+      android:layout_width="@dimen/common_phone_button_width"
+      android:layout_height="@dimen/common_phone_button_height"
+      android:src="@drawable/ic_trash"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@id/act_scan_picture_toggle_button_color_transform"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+
+      />
+    <!-- temparary camera button-->
+    <!--<ImageView
+      android:id="@+id/btn_open_camera"
+      android:layout_width="@dimen/common_phone_button_width"
+      android:layout_height="@dimen/common_phone_button_height"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@id/act_picture_list_button_delete"
+      app:layout_constraintRight_toRightOf="parent"
+      android:src="@drawable/ic_shoot"
+      />-->
+
+
+    <!-- <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_centerInParent="true"
+         android:orientation="horizontal" >
+
+         <RelativeLayout
+             android:id="@+id/btn_cancel"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1">
+
+             <ImageView
+                 android:layout_width="200dp"
+                 android:layout_height="70dp"
+                 android:layout_centerInParent="true"
+                 android:background="@drawable/btn_deep_color" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:text="@string/popup_btn_text_cancel"
+                 android:textColor="@color/btn_color_clear_white"
+                 android:textSize="@dimen/text_size_x_large" />
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/btn_shutter"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1">
+
+             <ImageView
+                 android:layout_width="200dp"
+                 android:layout_height="70dp"
+                 android:layout_centerInParent="true"
+                 android:background="@drawable/btn_camera_capture" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:text="@string/take_picture"
+                 android:textColor="@color/btn_color_clear_white"
+                 android:textSize="@dimen/text_size_x_large" />
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/btn_finish"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1">
+
+             <ImageView
+                 android:layout_width="200dp"
+                 android:layout_height="70dp"
+                 android:layout_centerInParent="true"
+                 android:background="@drawable/btn_deep_color" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:text="@string/popup_btn_text_complete"
+                 android:textColor="@color/btn_color_clear_white"
+                 android:textSize="@dimen/text_size_x_large" />
+         </RelativeLayout>
+     </LinearLayout>-->
+  </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

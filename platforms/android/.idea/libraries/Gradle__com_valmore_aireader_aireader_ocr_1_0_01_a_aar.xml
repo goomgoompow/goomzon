@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.valmore.aireader:aireader_ocr:1.0.01.a@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6da0a3e57964f69e0a735d5aefd5e87c/aireader_ocr/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6da0a3e57964f69e0a735d5aefd5e87c/aireader_ocr/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

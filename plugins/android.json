@@ -1,0 +1,33 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pentaon.vzon.plugin": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    },
+    "cordova-plugin-fcm": {
+      "PACKAGE_NAME": "com.pentaon.vzon"
+    }
+  },
+  "dependent_plugins": {}
+}

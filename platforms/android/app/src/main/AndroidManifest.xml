@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.pentaon.vzon"
+  android:versionCode="900"
+  android:versionName="0.9.00">
+  <!--
+  <uses-sdk
+  android:minSdkVersion="19"
+  android:targetSdkVersion="26" />
+    -->
+  <supports-screens
+    android:anyDensity="true"
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:resizeable="true"
+    android:smallScreens="true"
+    android:xlargeScreens="true"/>
+
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.GET_TASKS"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+  <uses-feature android:name="android.hardware.camera" android:required="false"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+  <application
+    android:hardwareAccelerated="true"
+    android:icon="@mipmap/icon"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:name="android.support.multidex.MultiDexApplication"
+    android:supportsRtl="true">
+    <uses-library
+      android:name="org.apache.http.legacy"
+      android:required="false" />
+    <activity android:name=".activity.OcrActivity">
+    </activity>
+
+    <meta-data
+      android:name="com.google.firebase.messaging.default_notification_icon"
+      android:resource="@mipmap/icon"/>
+
+    <activity
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:name=".activity.SplashActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+      <intent-filter android:label="@string/launcher_name">
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+      android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+      android:label="@string/activity_name"
+      android:launchMode="singleTask"
+      android:name=".activity.MainActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+      android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+
+    </activity>
+    <activity
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:name=".activity.PointChangedActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+    <activity
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:name=".activity.InstallationCaptureActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+    <activity
+      android:name=".activity.ScanBarcodeActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+      android:name=".activity.PictureListActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+      android:name=".activity.ImageLoadingFromGalleryActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> <!-- mVaccine Acitvity 추가 -->
+    <activity
+      android:label="@string/mv_app_name"
+      android:name="com.TouchEn.mVaccine.b2b2c.activity.ScanActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar"/>
+    <activity
+      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"
+      android:label="@string/mv_app_name"
+      android:name="com.TouchEn.mVaccine.b2b2c.activity.BackgroundScanActivity"
+      android:theme="@android:style/Theme.Translucent"/>
+    <activity
+      android:configChanges="orientation|keyboard"
+      android:exported="false"
+      android:label="@string/mv_app_name"
+      android:name="com.TouchEn.mVaccine.b2b2c.activity.ResultLogActivity"
+      android:screenOrientation="portrait"
+      android:theme="@android:style/Theme.NoTitleBar"/>
+    <activity
+      android:configChanges="orientation|keyboard"
+      android:label="@string/mv_app_name"
+      android:name="com.TouchEn.mVaccine.b2b2c.activity.BackgroundScan"
+      android:theme="@android:style/Theme.Translucent"/>
+    <activity
+      android:configChanges="orientation|keyboard"
+      android:label="@string/mv_app_name"
+      android:name="com.TouchEn.mVaccine.b2b2c.activity.BackgroundRootingCheck"
+      android:theme="@android:style/Theme.Translucent"/>
+
+    <!--<provider
+      android:authorities="${applicationId}.provider"
+      android:exported="false"
+      android:grantUriPermissions="true"
+      android:name="android.support.v4.content.FileProvider">
+      <meta-data
+        android:name="android.support.FILE_PROVIDER_PATHS"
+        android:resource="@xml/provider_paths"/>
+    </provider>-->
+
+    <activity
+      android:exported="true"
+      android:launchMode="singleTop"
+      android:name="com.gae.scaffolder.plugin.FCMPluginActivity">
+      <intent-filter>
+        <action android:name="FCM_PLUGIN_ACTIVITY"/>
+
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+
+    <service android:name="com.gae.scaffolder.plugin.MyFirebaseMessagingService">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <service android:name="com.gae.scaffolder.plugin.MyFirebaseInstanceIDService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+      </intent-filter>
+    </service>
+    <service
+      android:enabled="true"
+      android:exported="false"
+      android:name=".service.CheckingRemoveTaskService"
+      android:stopWithTask="false"/> <!-- Android 운영체제에서 엠백신 스레드 종료처리 방지용 서비스 추가 -->
+    <service
+      android:name="com.TouchEn.mVaccine.b2b2c.service.OnInstallService"
+      android:process=":remote"/>
+    <service android:name="com.TouchEn.mVaccine.b2b2c.service.ScanService"/>
+  </application>
+
+</manifest>

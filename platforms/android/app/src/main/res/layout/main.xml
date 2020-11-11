@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:shadowColor="@color/index10"
+        android:text="TouchEn mVaccine Demo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/index0"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:text="mini모드 악성코드/루팅 검사" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="full모드 악성코드/루팅 검사" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="루팅 여부 검사(루팅우회앱 설치 검사 포함)" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="백신 종료" />
+
+</LinearLayout>

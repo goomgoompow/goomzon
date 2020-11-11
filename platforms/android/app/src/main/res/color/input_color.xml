@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- selected -->
+	<item 
+		android:state_focused="true"
+		android:color="@color/dark_gray"/>
+	
+	<!-- default -->
+	<item 
+		android:color="@color/text_normal_gray_color"/>
+
+</selector>

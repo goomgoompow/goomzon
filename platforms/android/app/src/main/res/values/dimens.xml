@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_line_1dp">1dp</dimen>
+    <dimen name="popup_line_2dp">2dp</dimen>
+    <dimen name="popup_line_3dp">3dp</dimen>
+    <dimen name="popup_line_4dp">4dp</dimen>
+    <dimen name="popup_icon_x_size">24dp</dimen>
+
+    <dimen name="text_size_5x_large">30dp</dimen>
+    <dimen name="text_size_2x_large">24dp</dimen>
+    <dimen name="text_size_x_large">22dp</dimen>
+    <dimen name="text_size_large">20dp</dimen>
+    <dimen name="text_size_medium">18dp</dimen>
+    <dimen name="text_size_small">16dp</dimen>
+    <dimen name="text_size_x_small">14dp</dimen>
+    <dimen name="text_size_2x_small">12dp</dimen>
+
+    <dimen name="arrow_btn_size_width">29.5dp</dimen>
+    <dimen name="arrow_btn_size_height">12dp</dimen>
+
+    <dimen name="popup_bottom_size">70dp</dimen>  <!-- 팝업창 하단 버튼류 들어갈 곳 높이 -->
+
+    <dimen name="data_input_sub_title_bottom_gap">3dp</dimen>
+
+    <dimen name="layout_blank">500dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_phone_button_width">30.5dp</dimen>
+    <dimen name="common_phone_button_height">31.5dp</dimen>
+  <dimen name="thumbnail_width">88dp</dimen>
+    <dimen name="thumbnail_height">123dp</dimen>
+</resources>

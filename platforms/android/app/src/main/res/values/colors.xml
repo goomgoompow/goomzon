@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="text_normal_gray_color">#666666</color>
+  <color name="dark_gray">#353535</color>
+  <color name="light_gray">#7E7E7E</color>
+  <color name="black">#000000</color>
+  <color name="light_gray_inline">#d8dbdf</color>
+  <color name="point_view_vertex_line_default">#8288c2</color>
+  <color name="point_view_vertex_line_change">#5F69DA</color>
+  <color name="point_view_vertex_circle_default">#CC8288C2</color>
+  <color name="point_view_vertex_circle_change">#5F69DA</color>
+  <color name="main_btn_normal">#3c4d5c</color>
+  <color name="select_yellow_green_color">#77bd0c</color>
+  <color name="white">#ffffffff</color>
+  <color name="text_hint_color">#9c9c9c</color>
+  <color name="poup_new_title_underline_color">#319AE8</color>
+  <color name="payment_account_card_y_text_color">#0080f7</color>
+  <color name="picture_drag_bg_color">#1c3144</color>
+  <color name="new_grid_view_item_choice">#6FB40E</color>
+  <color name="cache_hint_color">#00000000</color>
+  <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="bg_alert_dialog_button">#1177ff</color>
+
+  <!--캡쳐 관련 화면-->
+  <color name="act_native_camera_preview_vertex">#f58220</color>
+  <color name="act_point_changed_camera_vertex_circle">#8288c2</color>
+  <color name="act_picture_list_actionbar">#191919</color>
+
+
+  <color name="index0">#ffffffff</color>
+  <color name="index1">#fff9f9f9</color>
+  <color name="index2">#fff5f5f5</color>
+  <color name="index3">#fff1f1f1</color>
+  <color name="index4">#ffe8e8e8</color>
+  <color name="index5">#ffe7e7e7</color>
+  <color name="index6">#ffd8d8d8</color>
+  <color name="index7">#ffd1d1d1</color>
+  <color name="index8">#ffc9c9c9</color>
+  <color name="index9">#ffb9b9b9</color>
+  <color name="index10">#ffb4b4b4</color>
+  <color name="index11">#ff9e9e9e</color>
+  <color name="index12">#ff999999</color>
+  <color name="index13">#ff666666</color>
+  <color name="index14">#ff444444</color>
+  <color name="index15">#ff333333</color>
+  <color name="index16">#ff000000</color>
+  <color name="index17">#ffff0000</color>
+  <color name="index18">#ff00ff00</color>
+  <color name="index19">#ff0000ff</color>
+  <color name="index20">#ffff00ff</color>
+  <color name="index21">#ff747474</color>
+  <color name="index22">#ff484e51</color>
+  <color name="index23">#ff2d3032</color>
+</resources>

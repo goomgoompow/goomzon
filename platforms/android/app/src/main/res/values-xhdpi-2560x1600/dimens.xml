@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_small_size">18dp</dimen>
+    <dimen name="native_camera_id_guide_margin">150px</dimen>  <!-- 신분증 가이드 라인 -->
+    <dimen name="native_camera_doc_guide_margin">40px</dimen>  <!-- 일반문서 가이드 라인 -->
+    <dimen name="pointchanged_id_masking_width">18px</dimen>  <!-- 마스킹 가로 크기 15mm /25.4 * dpi-->
+    <dimen name="pointchanged_id_masking_height">4px</dimen>  <!-- 마스킹 세로 크기 4mm /25.4 * dpi -->
+    <dimen name="pointchanged_foreign_masking_width">12px</dimen>  <!--  외국인 마스킹 가로 크기 12 /25.4 *dpi-->
+    <dimen name="pointchanged_textsize">1.4px</dimen>  <!-- 마스킹 텍스트 크기 1.4 mm /25.4 x dpi(320)-->
+    <dimen name="pointchanged_foreign_textsize" >0.78px</dimen > <!--  외국인 마스킹 텍스트사이즈 0.78/25.4  x dpi(320)-->
+    <dimen name="pointchanged_id_confirm_textsize">1.1px</dimen > <!-- 주민등록증 발급신청 확인서 마스킹 텍스트사이즈 1.1mm /25.4 dpi(320) -->
+    <dimen name="pointchanged_range_width">1546px</dimen>  <!-- 마스킹 가로 범위제한 1600 -pointview 의 mImageMaxX값- 오차-->
+    <dimen name="pointchanged_range_height">2123px</dimen>  <!-- 마스킹 범위제한 2560 - (top 213 + back  214 ) -->
+    <dimen name="pointchanged_radius">5px</dimen>  <!-- 5/25.4 x dpi(320)포인트뷰 사각꼭지점 크기  -->
+    <dimen name="pointchanged_roundval">5px</dimen>  <!--  canvas 모서리의 둥근 정도 값이 클수록 모서리가 둥글다-->
+
+</resources>

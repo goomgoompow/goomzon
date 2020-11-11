@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <!-- 앱 버전업 시에 version_date (발행일)도 업데이트 해야 함  -->
+    <string name="version_date">2019-09-20</string> <!-- build.grade에서 참조하므로 version_date를 최상단에 놓아야 함. -->
+    <string name="app_name">VZON</string>
+    <string name="app_name_debug">VZON.Debug</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="launcher_name_debug">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="picture_scan_title">[ 문서스캔 ]</string>
+    <string name="picture_list_sub_title">사업자등록증</string>
+    <string name="doc_title_name">주민등록발급신청확인서</string>
+    <string name="native_camera_activity_color">컬러</string>
+    <string name="native_camera_activity_mono">흑백</string>
+
+    <string name="doc_business_license">사업자 등록증</string>
+    <string name="doc_copy_bankbook">통장 사본</string>
+    <string name="doc_certified_copy_corporate_register">법인 등기부 등본</string>
+    <string name="doc_certificate_seal_impression">법인 인감 증명서</string>
+    <string name="doc_letter_attorney">위임장</string>
+    <string name="doc_representative_id_card">대표자 신분증</string>
+    <string name="doc_proxy_id_card">위임인 신분증</string>
+    <string name="doc_pictures_the_store">매장 사진</string>
+    <string name="doc_stockholder_list">주주 명부</string>
+    <string name="doc_installation_confirm">설치 확인서</string>
+
+    <string name="popup_btn_text_cancel">취소</string>
+    <string name="popup_btn_text_save">저장</string>
+    <string name="popup_btn_text_ok">확인</string>
+    <string name="popup_btn_text_close">닫기</string>
+    <string name="popup_btn_text_complete">완료</string>
+    <string name="view_guideline">사각잡기</string>
+    <string name="sel_doc_title">법인인감증명서</string>
+
+    <string name="alert_title">알림</string>
+    <string name="alert_camera_msg1">흑백 촬영 대상 문서를 컬러로 첨부하면 용량 제한 초과로 심사 시 반려될 수 있습니다.</string>
+    <string name="alert_text42">매장 위치와 영업 여부 확인이 가능하도록,\n간판(상호명 기재)이 보이는 외부 사진과\n매장 내부 진열 사진을 첨부하시기 바랍니다.</string>
+    <string name="image_processing">이미지 처리중입니다...</string>
+    <string name="image_saved">이미지가 저장되었습니다.</string>
+
+    <string name="masking_add">마스킹\n추가</string>
+    <string name="masking_remove">마스킹\n삭제</string>
+    <string name="masking_width_min">마스킹\n가로축소</string>
+    <string name="masking_width_max">마스킹\n가로확대</string>
+    <string name="masking_height_max">마스킹\n세로확대</string>
+    <string name="masking_height_min">마스킹\n세로축소</string>
+    <string name="masking_no_msg">마스킹을 추가할 수 없습니다.</string>
+    <string name="masking_delete_msg">마스킹을 삭제할 수 없습니다.</string>
+    <string name="masking_size_msg">마스킹 갯수를 100개 초과하여 추가 할 수 없습니다.</string>
+    <!--<string name="masking_msg"><![CDATA[화면 중앙의 사각 이미지를 이동하여<br><font color=\'#8288c2\'>%1$s 뒷자리</font>를 가려 주시기 바랍니다.]]></string>-->
+    <string name="masking_msg">화면 중앙의 사각 이미지를 이동하여 주민 번호 뒷자리를 가려 주시기 바랍니다.</string>
+    <string name="masking_add_msg">개인정보가 있는 경우 개수 만큼 아래 마스킹 추가 버튼을 눌러 마스킹을 생성하여 가려주시기 바랍니다.</string>
+
+    <string name="idcard_msg">촬영한 신분증의 종류를 선택해 주시기 바랍니다.</string>
+    <string name="idcard_masking">주민번호 뒷자리를\n가려 주십시오.</string>
+    <string name="idcard_masking2">외국인번호 뒷자리를\n가려 주십시오.</string>
+    <string name="idcard_masking3">거소신고번호 뒷자리를\n가려 주십시오.</string>
+    <string name="idcard_point_msg">신분증 사각모서리에 포인트 아이콘을 정확하게 맞추어 주십시오.</string>
+    <!--<string name="idcard_waring"><![CDATA[<font color=\'#ff0000\'>%1$s 뒷자리</font>가 제대로 가려졌는지 확인해 주시기 바랍니다.<br>그래도 계속 진행하겠습니까?]]></string>-->
+    <string name="idcard_waring">주민 번호 뒷자리가 제대로 가려졌는지 확인해 주시기 바랍니다.\n계속 진행하겠습니까?</string>
+    <string name="bankid_check_msg">계좌번호와 예금주를 확인해 주십시오\n  -계좌번호 : %1$s\n  -예금주 : %2$s \n  -은행명 : %3$s </string>
+
+    <string name="take_picture">촬영</string>
+    <string name="idcard_num_type1">주민등록번호</string>
+    <string name="idcard_num_type3">외국인등록번호</string>
+    <string name="idcard_num_type4">국내거소신고번호</string>
+    <string name="idcard_type1">주민등록증</string>
+    <string name="idcard_type2">운전면허증</string>
+    <string name="idcard_type3">외국인등록증 앞면</string>
+    <string name="idcard_type6">외국인등록증 뒷면</string>
+    <string name="idcard_type4">국내거소신고증 앞면</string>
+    <string name="idcard_type5">국내거소신고증 뒷면</string>
+    <string name="idcard_type7">재외국민용 주민등록증 앞면</string>
+    <string name="idcard_type8">재외국민용 주민등록증 뒷면</string>
+
+    <string name="act_main_alert_message_restart_app">장시간 접속하지 않아 앱이 종료됩니다.\n앱을 다시 실행해 주세요.</string>
+
+    <string name="act_scanbarcode_confirmed_product">확인된 상품:</string>
+    <string name="act_scanbarcode_serial_number_ok">시리얼 번호 확인</string>
+    <string name="act_scanbarcode_serial_number_duplicated">이미 확인된 시리얼 번호입니다.</string>
+    <string name="act_scanbarcode_serial_number_no">불일치한 시리얼번호</string>
+    <string name="act_scanbarcode_msg_duplicated_serial_number">이미 등록된 시리얼 번호입니다.</string>
+    <string name="act_scanbarcode_msg_register_serial_number_complete">시리얼 번호 등록이 완료되었습니다.</string>
+    <string name="act_scanbarcode_alert_dialog_message">시리얼 번호가 불일치 합니다.\n   사용하시겠습니까?</string>
+    <string name="act_main_permission_denied_alert_dialog_message">권한이 승인되지 않아 앱이 종료됩니다.\n설정에서 앱 \"카메라\", \"저장소\" 권한을 승인해주세요.</string>
+    <string name="act_scanbarcode_error_barcode_verify">시리얼 번호 진위 정보에 오류가 있습니다.</string>
+
+    <string name="picture_list_title">[ 스캔이미지 조회 ]</string>
+    <string name="picture_list_activity_choice_color_mono">  \u0020\u0020\u0020\u0020\u0020\u0020 - 촬영 버튼을  클릭해주시기 바랍니다. \n\n
+	    \u0020\u0020\u0020\u0020\u0020\u0020이미지 촬영 후 \n\n
+      \u0020\u0020\u0020\u0020 - 우측의 버튼을 사용하여 첨부 이미지의 \n\n
+      \u0020\u0020\u0020\u0020\u0020\u0020 회전(90 ̊)및 삭제가 가능하며
+      \n\n\u0020\u0020\u0020\u0020 - 아래 썸네일 리스트에서 드래그드롭으로 \n\n \u0020\u0020\u0020\u0020\u0020\u0020첨부순서의 변경이 가능합니다.</string>
+    <string name="picture_list_description">아래의 (+) 버튼을 터치하여 이미지 촬영 또는 갤러리에서 사진을 첨부해 주세요.\n\n
+        하단 버튼을 사용하여 이미지 수정 및 삭제가 가능합니다.\n\n
+        아래 썸네일 리스트에서 드래그 앤 드랍으로 첨부 순서의 변경이 가능합니다.
+    </string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+
+
+    <string name="str_picturelist_exit_popup">완료하지 않고 종료하시면 바뀐 데이터는 저장되지 않습니다.</string>
+    <string name="str_picturelist_no_edit">이전 화면에서 증빙첨부를 \'수정\' 상태로 변경 후 사용이 가능합니다.</string>
+    <string name="toast_picture_list_max_scan">스캔은 %1$s장 까지 가능합니다.</string>
+    <string name="alert_text51">간판이 보이는 매장외부 사진과\n매장내부 사진\n총 2 매가 첨부되어야 합니다.</string>
+    <string name="alert_text5">간판이 보이는 매장외부 사진과\n매장내부 사진\n총 2 매가 첨부되어야 합니다.\n\n매장사진을 추가하시겠습니까?</string>
+    <string name="alert_text6">국내거소신고증은 앞장과 뒷장 두장이 필요합니다.</string>
+    <string name="sign_activity_working_long">작업중입니다. 수 분이 걸릴 수 있습니다.</string>
+    <string name="sign_activity_file_sending">파일을 전송중입니다.</string>
+    <string name="sign_activity_working">작업중입니다.</string>
+    <string name="please_wait_loading">로딩중....</string>
+
+    <string name="popup_title_application_send">신청서전송</string>
+    <string name="popup_text_application_sending">신청서 전송중입니다.</string>
+    <string name="popup_text_application_sending_fail">신청서 전송에 실패하였습니다.\n재전송 하시겠습니까?</string>
+
+
+    <string name="store_msg">가맹점 외부, 내부 사진을 선택해 주시기 바랍니다.</string>
+    <string name="store_type1">가맹점 외부 사진</string>
+    <string name="store_type2">가맹점 내부 사진</string>
+    <string name="store_title">가맹점 실사 사진</string>
+    <string name="store_special">□ 특이사항</string>
+
+    <string name="sub_store_picture_info">특이사항 있으면 여기에 작성해 주십시오.</string>
+
+    <string name="toast_native_camera_click_shutter_button">촬영 버튼을 선택하였습니다.</string>
+
+    <string name="toast_native_camera_saving_image_failure">이미지가 저장되지 않았습니다.</string>
+    <string name="toast_native_camera_click_mono_button">흑백 모드를 선택하셨습니다.</string>
+    <string name="toast_native_camera_click_color_button">컬러 모드를 선택하셨습니다.</string>
+    <string name="toast_picture_list_rotation_no_select_error">회전할 이미지를 선택 해 주세요.</string>
+    <string name="toast_picture_list_rotation_no_image">회전할 이미지가 없습니다.</string>
+    <string name="toast_picture_list_delete_no_image">삭제할 이미지가 없습니다.</string>
+    <string name="toast_picture_list_delete_no_select_error">삭제할 이미지를 선택해 주십시오.</string>
+    <string name="toast_picture_list_message_server_error">서버와의 통신 에러가 발생했습니다.</string>
+    <string name="toast_image_loading_fail">이미지 불러오기 실패했습니다.</string>
+    <string name="toast_clear_cache_data">VZON 임시 데이터가 삭제됐습니다.</string>
+    <string name="toast_auto_logout">자동 로그아웃 되었습니다.</string>
+    <string name="toast_client_error">잘못된 요청입니다.</string>
+    <string name="toast_server_error">서버에 에러가 발생했습니다.</string>
+    <string name="toast_server_connected"> 서버로 연결합니다.</string>
+
+    <string name="common_progress_loading">Loading...</string>
+
+    <string name="mv_app_name">TouchEn mVaccine</string>
+    <string name="mv_mVaccineScanning">TouchEn mVaccine이 구동 중입니다.</string>
+    <string name="mv_COMMON_COPYRIGHT">© RAONSECURE,Inc. All rights reserved.</string>
+    <string name="mv_dialog_stopdialog_textview">초후에 시간이 많이 걸리는 검사를 백그라운드 작업으로 변경합니다.</string>
+    <string name="mv_no">아니요</string>
+    <string name="mv_yes">예</string>
+    <string name="mv_msg_rootingexitapp">루팅폰에서는 서비스를 이용하실 수 없습니다.</string>
+    <string name="mv_msg_rootingyesorno">루팅폰입니다. 검사를 중지하실려면 예를  검사를 계속 진행하실려면 아니오를 누르세요</string>
+    <string name="mv_msg_rootingyes">루팅폰입니다. 스마트폰 보안에 영향을 주는 구조변경(탈옥,루팅)을 한폰에서 발생한 문제는 자사에서는 책임지지 않습니다. </string>
+    <string name="mv_count">검사파일수 : </string>
+    <string name="mv_infected">악성코드 발견 수 : </string>
+    <string name="mv_pattern">패턴버전 : </string>
+    <string name="mv_engine">엔진버전 : </string>
+    <string name="mv_dualengine">듀얼엔진버전 : </string>
+    <string name="mv_scan_result">검사결과</string>
+    <string name="mv_scan_result_msg">악성코드가 검출되었습니다. 삭제하시겠습니까? 삭제하지 않으면 스마트폰 내 정보가 해킹될 수 있습니다. </string>
+    <string name="mv_scan_detect_malware">TouchEn mVaccine이 악성코드를 탐지 하였습니다.</string>
+    <string name="mv_title_rootscan">루팅검사 </string>
+    <string name="mv_msg_rootapp">루팅관련 불법앱이 설치되어 있습니다.삭제 후 해당앱을 다시 실행해 주십시오. </string>
+    <string name="mv_msg_rootprocess">루팅관련 앱 활동이 탐지되었습니다.삭제 후 해당앱을 다시 실행해 주십시오. </string>
+    <string name="mv_msg_detect_malware_count"> 개의 악성코드를 발견하였습니다. </string>
+    <string name="mv_msg_surenot_delete">삭제하지 않은 앱이 있습니다. 삭제하지 않고 이 화면에서 나가시겠습니까?</string>
+    <string name="mv_delete">삭제</string>
+    <string name="mv_close">닫기</string>
+    <string name="mv_malware_name">악성코드명 : </string>
+    <string name="mv_risk_high">위험도 : 높음</string>
+    <string name="mv_stop">검사중지</string>
+    <string name="mv_scanning_middle_title">악성코드 검사 진행 중 . . .</string>
+    <string name="mv_path">검사경로: </string>
+    <string name="mv_msg_updateprogress">업데이트 진행 중입니다.\n네트워크 상태에 따라서 시간이 지연될 수 있습니다.</string>
+    <string name="mv_check_license">라이센스를 체크하는 중입니다.</string>
+    <string name="mv_license_expired">라이센스가 만료되었습니다.</string>
+    <string name="mv_license_not_matched">라이센스가 일치하지 않습니다.</string>
+    <string name="mv_siteid_error">잘못된 사이트ID 입니다.</string>
+    <string name="mv_sure_stop_scan">검사를 중지하시겠습니까?</string>
+    <string name="popup_btn_text_retry">재촬영</string>
+  <string name="toast_no_such_directory">파일을 저장할 폴더가 없습니다.</string>
+    <string name="popup_btn_text_back">뒤로</string>
+
+</resources>

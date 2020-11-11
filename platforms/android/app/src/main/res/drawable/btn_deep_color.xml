@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent">
+
+    <item android:drawable="@drawable/btn_new_select" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_new_clear_cancel" android:state_enabled="false"/>
+    <item android:drawable="@drawable/btn_new_clear_ok" android:state_enabled="true"/>
+    <item android:drawable="@drawable/btn_new_clear_ok"/>
+
+</selector>

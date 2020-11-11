@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7cf18ad-2662-43fc-a9aa-13c725c72ce8" name="Default Changelist" comment="[issue:modified]&#10;갤러리에서 이미지 불러와 적용하기 수정 중" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_27" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getI</find>
+      <find>get</find>
+      <find>uploadCaptureFile</find>
+      <find>onActivityResult</find>
+      <find>mIsEnableEditMode</find>
+      <find>mPhotoVO</find>
+      <find>CONTRACT_PROOF_I</find>
+      <find>PictureOfInstall</find>
+      <find>onClickTypeI</find>
+      <find>mIntent</find>
+      <find>INTENT_EXTRA_CONTRACT_PROOF</find>
+      <find>contractProof</find>
+      <find>mContractProof</find>
+      <find>4</find>
+      <find>mArrFilePath</find>
+      <find>SystemUtil</find>
+      <find>saveTest</find>
+      <find>onClickGoToTest</find>
+      <find>selectServer</find>
+      <find>onClickGoToReal</find>
+      <find>FCMPlugin.getToken</find>
+      <find>Refreshed token</find>
+      <find>useAndroidX</find>
+      <find>launcher_name</find>
+      <find>Syos</find>
+      <find>System.fish</find>
+      <find>onClickGoToFCM</find>
+      <find>addSigningProps</find>
+      <find>promptForReleaseKeyPassword</find>
+      <find>abiFilters</find>
+    </findStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="C:\develop\keystore\keystore.jks" />
+    <option name="KEY_ALIAS" value="vzon" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="70" />
+    <option name="y" value="320" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectId" id="1k6PjffdwLU4E7olhD1kKQHlL4a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="2c61ba99" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-19T02:08:49.242Z" />
+    <property name="ExportApk.ApkPath" value="C:\develop\workspace\git_repos\3_Vzon\branches\jhKim_20190917\mobile-native\platforms\android\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$/../../../../screenshot" />
+    <property name="android.sdk.path" value="C:/../../android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../screenshot" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\develop\workspace\git_repos\3_Vzon\branches\jhKim_20190917\mobile-native\platforms\android\app\src\main\res\drawable" />
+      <recent name="C:\develop\workspace\git_repos\3_Vzon\branches\jhKim_20190917\mobile-native\platforms\android\app\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7cf18ad-2662-43fc-a9aa-13c725c72ce8" name="Default Changelist" comment="" />
+      <created>1568680388903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568680388903</updated>
+    </task>
+    <task id="LOCAL-00001" summary="[issue:modified]&#10;갤러리에서 이미지 불러와 적용하기 수정 중">
+      <created>1568680877221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568680877221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[issue:added]&#10;칩셋 별 라이브러리 추가">
+      <created>1568681086668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568681086668</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[issue:modified]&#10;- orientation 90인 이미지 화면 bitmap과 방향 상이한 부분 수정 중&#10;- masking 이미지 사이즈 및 좌표 수정 중">
+      <created>1568854020477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568854020477</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[issue:modified]&#10;마스킹 영역 위치 수정&#10;비정상적인 back버튼 flow 수정">
+      <created>1568966426887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568966426887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+    <MESSAGE value="[issue:modified]&#10;갤러리에서 이미지 불러와 적용하기 수정 중" />
+    <MESSAGE value="[issue:added]&#10;칩셋 별 라이브러리 추가" />
+    <MESSAGE value="[issue:modified]&#10;- orientation 90인 이미지 화면 bitmap과 방향 상이한 부분 수정 중&#10;- masking 이미지 사이즈 및 좌표 수정 중" />
+    <MESSAGE value="[issue:modified]&#10;마스킹 영역 위치 수정&#10;비정상적인 back버튼 flow 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[issue:modified]&#10;마스킹 영역 위치 수정&#10;비정상적인 back버튼 flow 수정" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1605018242442">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.40.1536.824@0.40.1920.1040" timestamp="1605018242442" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/ui/scan/ImageProcessing.java</url>
+          <line>782</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/ImageLoadingFromGalleryActivity.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/MainActivity.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/ImageLoadingFromGalleryActivity.java</url>
+          <line>281</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/ImageLoadingFromGalleryActivity.java</url>
+          <line>263</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/PointChangedActivity.java</url>
+          <line>844</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/ImageLoadingFromGalleryActivity.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/ImageLoadingFromGalleryActivity.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/InstallationCaptureActivity.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/PictureListActivity.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pentaon/vzon/activity/PictureListActivity.java</url>
+          <line>986</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
